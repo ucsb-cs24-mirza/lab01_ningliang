@@ -73,8 +73,8 @@ int main() {
     const Rectangle floor(width, length); // note: const object
 
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
-    rug.setWidth(0);
-    rug.setLength(0);
+    cin >> width >> length;
+    const Rectangle rug(width, length);
     
     
     // DO NOT CHANGE ANYTHING BELOW (if you do, you will earn 0 points,
